@@ -1,0 +1,14 @@
+div{
+	border:#000;
+	border-style:dotted;
+	border-width:thin;
+}
+.container{
+	width:600px;
+	text-align:center;
+	height:auto;
+}
+.table-hover
+{
+width:400px;
+}

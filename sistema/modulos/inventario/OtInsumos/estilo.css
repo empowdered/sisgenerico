@@ -1,0 +1,22 @@
+/*Estilo css menu y tablas*/
+
+body{background-color:rgba(0,51,102,1);
+font-family:Verdana, Geneva, sans-serif;font-size:10px;}
+a:link,a:visited,a:hover{text-decoration:none; font-size:10px; color:black;}
+.container{width:1360px;height:auto; background-image:url(../../../images/swirl_pattern.png); margin-top: 50px; font-size:11px;}
+#cabecera{ height:40px; background-color:transparent;}
+#opciones{background-color: #E5E5E5; font-size:11px;}
+#contenido{height: 640px;background-color:white; font-size:12px;}
+#Guardar,#Ejecutar,#Limpiar{ background-color:rgba(0,51,204,1); color:rgba(255,255,255,1); border-radius:8px; width:70px;} 
+table th,td{
+font-family:Verdana, Geneva, sans-serif;
+font-size:11px;
+padding:5px;
+text-align:center;
+}
+table tr:hover{
+	background-color:#E5E5E5;
+	color:#06F;
+	cursor:pointer;
+	font-size:11px;
+}

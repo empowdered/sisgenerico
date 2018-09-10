@@ -1,0 +1,142 @@
+/*
+div{
+	border-color:#F00;
+	border-style:dotted;
+	border-width:thin;
+}
+*/
+div{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+#cabecera{
+
+}
+	
+body{
+	background-color:rgba(0,51,102,1);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+.container{
+	height:900px;
+	width:1024px;
+	border-radius:6px;
+	
+}
+#cabecera{
+	width:auto;
+	border-radius:6px;
+}
+#menu{
+	width:150px;
+	height:200px;
+	border-radius:6px;
+	border-style:dotted;
+	border-width:thin;
+	background-color:transparent;
+}
+#formularios{
+	height:850px;	
+	width:850px;
+	border-radius:6px;
+	background-color:#FFF;
+	opacity:0.99;
+}
+a:link{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+a:active{
+	color:#06F;
+}
+a:hover{
+	color:rgba(128,128,128,1);
+}
+#enlace{
+	background-color:#FFF;
+	padding:3px;
+	text-align:left;
+	border-radius:4px;
+	border-bottom-color:rgba(255,0,0,1);
+	border-bottom-style:dotted;
+	border-bottom-width:thin;
+}
+#enlace:hover
+{
+	background-color:rgba(255,251,240,1);
+	border-style:dotted;
+	border-width:thin;
+	border-color:#F00;
+	border-radius:10px;
+	color:rgba(255,255,255,1);
+	text-align:center;
+	opacity:0.9;
+}
+input[type=text]{
+	border-radius:6px;
+}
+input[type=text]:hover{
+	background-color:rgba(204,255,255,1);
+	box-shadow: 2px 2px 4px #999;
+}
+select{
+	border-radius:6px;
+}
+/*
+table{
+	width:400px;
+}
+table td{
+	padding:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+*/
+.btn-sm{
+	background-color:rgba(0,127,255,1);
+	color:rgba(255,255,255,1);
+	font-size:16px;
+	width:100px;
+	border-radius:6px;
+	
+}
+.glyphicon-remove,.glyphicon-pencil{
+	font-size:16px;
+}
+#despliegue{
+	overflow-y : auto;
+}
+span:hover{
+	cursor:pointer;
+}
+input {
+    outline:none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border:1px solid rgba(0,0,0, 0.2);
+    color:gray;
+    background-color:#eee;
+    padding: 3px;
+     
+}
+ 
+input:focus {
+    box-shadow: 0 0 15px green;
+    -webkit-box-shadow: 0 0 15px green; 
+    -moz-box-shadow: 0 0 15px green;
+    border:1px solid green; 
+    background-color:white;
+}
+.boton{
+	background-color:rgba(0,0,204,1);
+	color:white;
+	font-size:12px;
+	border-radius:6px;
+	width:120px;
+}

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	background-image:url(../images/dusk.png);
+	background-repeat:repeat;
+	font-family:"Adobe Caslon Pro", "Adobe Caslon Pro Bold", "Adobe Garamond Pro", "Adobe Garamond Pro Bold", "Agency FB", "VeraBd", serif, monospace, fantasy, "Goudy Stout", "Goudy Old Style", "Gloucester MT Extra Condensed";
+	font-size:16px;
+}
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+	font-size:18px;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+.container{
+	background-color:#FFF;
+	width:1024px;
+	height:auto;	
+	margin-top:20px;
+	border-radius:6px;
+}
+.col-xs-3,.col-xs-9{
+	border-style:dotted;
+	border-color:#F00;
+	border-width:thin;
+	border-radius:6px;
+	
+}
+.col-xs-12{
+	/*
+	background-image:url(images/header_aneway.jpg);
+	*/
+	height:200px;
+	width:1024px;
+	border-radius:6px;
+}
+.list-group,.list-group-item{
+	border:none;
+}
+.divisor{
+	/*
+	background-image:url(../images/divider_left_panel.png);
+	*/
+	background-color:#CCC;
+	height:4px;	
+	width:240px;
+	border-radius:10px;
+}
+#contenido{
+	background-image:url(../images/black_board.jpg);  
+	color:#FFF;
+	height:600px;
+	overflow-y:auto;
+}
+/*
+#miSlide{
+	width:1024px;
+}
+*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	  border-radius:6px;
+ }

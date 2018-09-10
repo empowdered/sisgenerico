@@ -1,0 +1,5 @@
+1;juan pablo;munoz leiva;los olivos 1114...;16.137.272-2
+2;maria luisa ;leiva carvallo;juan antonio ri...;7.968.343-4
+3;mario orlando;muñoz perez;la tirana 1134,...;5.755.785-1
+4;paola angelica;fuentes martinez;luis cruchaga 3...;14.392.813-6
+13;ronald osvaldo;carrasco acevedo;- calle 2, casa...;15.944.288-2

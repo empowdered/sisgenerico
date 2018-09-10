@@ -1,0 +1,111 @@
+/* CSS Document */
+
+body{
+
+	background-color:rgba(0,51,102,1);
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+}
+.container{
+	width:1024px;
+	height:855px;
+	background-image:url(../images/swirl_pattern.png);
+	background-repeat:repeat;
+	border:dashed;
+	border-width:thin;
+	border-color:#ffffff;
+	margin-bottom:-10px;
+	border-radius:8px;
+}
+.cabecera{
+	height:100px;
+	border-radius:8px;
+	background-color:#09C;
+}
+.contenido{
+	height:600px;
+	width:auto;
+}
+/* Aca va la redefinicion de tipos */
+.container{
+	border-style:dashed;
+	border-width:thin;
+	border-color:#930;
+}
+.panel-body{
+	height:565px;
+	border-style:none;
+}
+.row,.col-xs-4{
+	border-style:dotted;
+	border-width:thin;
+	border-radius:8px;
+}
+.col-xs-4{
+	height:100px;
+	line-height:100px;
+	border-radius:6px;
+	/*
+	margin:0px auto;
+	*/
+	text-align:center;	
+}
+
+#contenedor_menu_central{
+	margin-top:15px;
+	width:350px;	
+}
+#item_menu1{
+	background-image:url(../icons/The-Office-256.png);
+	background-position:center;
+	background-size:50px 50px;
+	background-repeat:no-repeat;
+}
+#item_menu2{
+	background-image:url(../icons/Gnome-X-Office-Presentation-64.png);
+	background-position:center;
+	background-size:50px 50px;
+	background-repeat:no-repeat;
+}
+#item_menu3{
+	background-image:url(../icons/Notepad.png);
+	background-position:center;
+	background-size:30px 30px;
+	background-repeat:no-repeat;
+}
+#item_menu4{
+	background-image:url(../icons/control-de-lista-de-tareas-icono-6927-48.png);
+	background-position:center;
+	background-size:30px 30px;
+	background-repeat:no-repeat;
+}
+#item_menu5{
+	background-image:url(../modulos/inventario/iconos/1434153087_kfm_tools.png);
+	background-position:center;
+	background-size:30px 30px;
+	background-repeat:no-repeat;
+}
+#item_menu6{
+	background-image:url(../icons/Configuration.png);
+	background-position:center;
+	background-size:30px 30px;
+	background-repeat:no-repeat;
+}
+#item_menu7{
+	background-image:url(../icons/Settings%20Grey.png);
+	background-position:center;
+	background-size:50px 50px;
+	background-repeat:no-repeat;
+}
+#item_menu8{
+	background-image:url(../icons/Settings%20Grey.png);
+	background-position:center;
+	background-size:60px 60px;
+	background-repeat:no-repeat;
+}
+#item_menu9{
+	background-image:url(../icons/Settings%20Grey.png);
+	background-position:center;
+	background-size:60px 60px;
+	background-repeat:no-repeat;
+}
